@@ -63,5 +63,8 @@ setopt nonomatch
 # Insert slash (/) as a result of tab-completion after two dots
 zstyle ':completion:*' special-dirs true
 
+# Reverse search 'ctrl-r'
+bindkey '^R' history-incremental-search-backward
+
 # Load aliases and shortcuts if existent.
 [ -f "$HOME/.config/aliasrc" ] && source "$HOME/.config/aliasrc"
