@@ -1,0 +1,5 @@
+alias ll='ls -al'
+alias ..='cd ..'
+alias cfg='vi /home/lpirsic/.config/zsh/.zshrc'
+alias ta='tmux a'
+alias tx='tmux'

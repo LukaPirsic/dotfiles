@@ -1,1 +1,17 @@
 *.zcompdump
+*.ansible
+*.bash_history
+*.bash_logout
+*.bash_profile
+*.bashrc
+*.lesshst
+*.local
+*.ssh
+*.tmux-keybindings.conf
+*.tmux.conf
+*.vim
+*.viminfo
+*.vscode-server
+mc
+tmp
+tmux
