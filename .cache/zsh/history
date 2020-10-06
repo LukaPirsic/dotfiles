@@ -7561,3 +7561,114 @@ ta
 clear
 clear
 ssh inchivedev02
+tx
+vi .tmux.conf
+vi .tmux-keybindings.conf
+tx
+ta
+clear
+ll
+rm ssh_config
+ll
+rm sshd_config
+ll
+clear
+ll
+vi .gitignore
+cd tmux
+ll
+vi copy
+cd ..
+less tmux/copy
+vi .tmux.conf
+vi .tmux-keybindings.conf
+git status
+vi .config/zsh/.zshrc
+git status >> .gitignore
+vi .gitignore
+git status >> .gitignore
+vi .gitignore
+ll
+cd .vim
+ll
+vi .netrwhist
+vi ../.gitignore
+vi .vimi
+vi ../.viminfo
+cd ..
+vi .vimrc
+vi .gitignore
+git status
+git -v
+git -v remote
+git remote -v
+cd .git
+vi config
+cd ..
+git config user.name "Luka Pirsic"
+git config user.email "pirsic.luka@gmail.com"
+git remote add origin https://github.com/LukaPirsic/dotfiles.git
+clear
+git status
+git add -A
+git status
+git reset
+git status
+vi .gitignore
+git add -A
+git status
+vi .gitignore
+vi .config/zsh/.zshrc
+git commit -m "first commit"
+git push origin master
+git status
+vi .config/zsh/.zshrc
+git status
+git add -A
+git commit -m "modified .config/zsh/.zshrc"
+git status
+git add -A
+git status
+git add .config/zsh/.zshrc
+cd .config
+ll
+cd zsh
+ll
+rm .git
+rm -rf .git
+rm .gitignore
+ll
+cd ..
+cd ..
+ll
+git status
+vi .config/zsh/.zshrc
+git status
+git add .config/zsh/.zshrc
+git rm --cached directory
+git rm --cached .config/zsh
+git status
+git add -A
+git status
+git commit -m "added .config/zsh/.zshrc"
+git push origin master
+git push origin master
+clear
+vi /etc/ansible/sysadmin/roles/common/tasks/useradd_admin.yml
+vi tmp/a
+vi .git/config
+vi .git/config
+vi .config/a
+ll .config
+vi .config/aliasrc
+git status
+git add -A
+git commit -m "added x in aliasrc"
+git push master origin
+git push origin master
+clear
+vi .config/aliasrc
+git add -A
+git commit -m "removed x from aliasrc"
+git push origin master
+clear
