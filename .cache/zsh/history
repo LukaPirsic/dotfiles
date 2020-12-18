@@ -1,237 +1,3 @@
-history | less
-ll -la
-mkdir -p .cache/zsh
-touch .cache/zsh/history
-cd /etc/ansible/hive_centOS_8_test
-ll
-cd ..
-ll
-man tar
-tar -cvzf hive_centOS_8_test.tar.gz hive_centOS_8_test
-ll
-scp hive_centOS_8_test.tar.gz root@incsystest04:/tmp
-vi /home/lpirsic/.ssh/known_hosts
-scp hive_centOS_8_test.tar.gz root@incsystest04:/tmp
-vi /home/lpirsic/.ssh/known_hosts +19
-scp hive_centOS_8_test.tar.gz root@incsystest04:/tmp
-ll
-rm hive_centOS_8_test.tar.gz
-ll
-cd hive_centOS_8_test
-ll
-ll -la
-rm .git
-rm -rf .git
-rm -rf .gitignore
-ll -la
-history | less
-history | grep cert
-sudo su
-cd /etc/ansible/hive_centOS_8_test
-ll
-cd roles
-ll
-grep -R ansible
-grep -R hive
-vi /var/lib/jenkins/.ssh/known_hosts +10
-sudo vi /var/lib/jenkins/.ssh/known_hosts +10
-passwd ansible
-sudopasswd ansible
-sudopasswd ansible
-sudo passwd ansible
-ssh ansible@incsystest04.inceptum.local
-ssh ansible@incsystest04.inceptum.local
-cd hive_database/tasks
-ll
-vi install_postgresql_10.yml
-vi install_postgresql_10.yml
-vi install_postgresql_10.yml
-vi install_postgresql_10.yml
-vi install_postgresql_10.yml
-vi install_postgresql_10.yml
-ll
-ll -l
-ll -la
-rm .install_postgresql_10.yml.swp
-ll
-vi install_postgresql_10.yml
-vi add_custom_repo.yml
-vi add_yum_repo.yml
-vi ../../../inventories/incsystest04/group_vars/all
-ll ../../../inventories/incsystest04/group_vars/
-ll -la ../../../inventories/incsystest04/group_vars/
-rm ../../../inventories/incsystest04/group_vars/.all.swp
-ll -la ../../../inventories/incsystest04/group_vars/
-vi install_postgresql_10.yml
-vi install_postgresql_10.yml
-grep -R postgres user to pgbackrest repo
-grep -R "postgres user to pgbackrest repo"
-less configure_pgbackrest_backup.yml
-cd
-ll
-ping incwintest01.inceptum.test
-cd /etc/ansible/sysadmin/roles/common
-cd tasks
-ll
-vi useradd_admin.yml
-vi useradd_admin.yml
-cd /etc/ansible/hive_rhel_8_test
-ll
-ll -la
-rm -rf .git
-ll -la
-cd inventories
-l
-ll
-cd ..
-cd ..
-ll
-ll /tmp
-ll
-tar -czf hive_rhel.tar.gz hive_rhel_8_test
-ll
-ll
-scp hive.tar.gz root@incsystest04:/tmp
-vi /home/lpirsic/.ssh/known_hosts
-scp hive.tar.gz root@incsystest04:/tmp
-vi /home/lpirsic/.ssh/known_hosts
-scp hive.tar.gz root@incsystest04:/tmp
-scp hive.tar.gz root@incsystest04:/tmp
-ping incwintest01
-ll
-ll
-scp mcrmintegration-0.0.1-15.el7.x86_64.rpm root@incsystest01:/tmp
-cd /etc/ansible/hive_centOS_8_test
-ll
-cd roles
-ll
-cd hive_security
-ll
-ll templates
-less templates/hive-security.service.j2 
-cd ..
-cd ..
-cd ..
-ll
-cd mcrm_integration
-ll
-cd inventories
-ll
-cd ..
-cd roles
-ll
-cd hive_common/tasks
-ll
-less install_java_openjdk
-less install_java_openjdk
-less install_java_openjdk_
-less install_java_openjdk_latest.yml
-cd ..
-cd ..
-ll
-ll
-cp -r hive_common  common
-ll
-rm -rf hive_*
-ll
-ll
-cp -r common mcrmintegration
-ll
-cd ..
-cd ..
-ll
-cd store_manager
-ll
-cd roles
-ll
-cd ../..
-ll
-ll hive_centOS_8_test/roles/hive_security/tasks
-less hive_centOS_8_test/roles/hive_security/tasks/install_hive_security.yml
-less hive_centOS_8_test/roles/hive_security/tasks/install_hive_security.yml
-cp -r hive_centOS_8_test/roles/hive_security/ mcrm_integration/roles
-ll mcrm_integration/roles
-ll mcrm_integration
-ll mcrm_integration/roles
-ll mcrm_integration/roles/mcrmintegration/tasks
-cd mcrm_integration/roles
-ll
-ll
-rm -rf mcrmintegration
-ll
-mv hive_security mcrmintegration
-ll
-cd mcrmintegration
-ll
-cd tasks
-ll
-less configure_hive_security.yml
-rm configure_hive_security.yml
-ll
-less copy_service_init_script.yml
-vi main.yml 
-cd /etc/ansible/mcrm_integration
-ll
-cd roles
-cd ..
-cd inventories/incsystest01
-ll
-cd host_vars
-ll
-cd ,,
-cd ..
-less hosts
-less host_vars/hive_addressbook
-less hosts
-sudo vi hosts
-sudo vi hosts
-cd host_vars
-ll
-less hive_da
-less hive_dbserver
-cd ..
-vi hosts
-cd host_
-cd host_vars
-ll
-rm -rf hive_*
-ll
-cd ..
-ll
-cd group_vars
-ll
-vi all
-cd /etc/ansible/mcrm_integration
-cd inventories/incsystest01/group_vars
-ll
-vi all
-cd ..
-cd ..
-cd ..
-cd roles
-ll
-cd mcrmintegration/tasks
-ll
-vi install_hive_security.yml
-cd ../templates
-cd ../handlers
-ll
-vi main.yml
-less handle_hive_security_service.yml
-cd ../tasks
-ll
-vi install_hive_security.yml
-mv install_hive_security.yml install_mcrmintegration.yml
-ll
-vi copy_service_init_script.yml
-vi ../templates/hive-security.service.j2
-mv ../templates/hive-security.service.j2 mcrmintegration.service.j2
-vi copy_service_init_script.yml
-vi main.yml
-ll
-vi main.yml
-vi main.yml
-mv mcrmintegration.service.j2 ../templates
 ll
 cd ../templates
 ll
@@ -7672,3 +7438,2569 @@ git add -A
 git commit -m "removed x from aliasrc"
 git push origin master
 clear
+ssh inchivetest01
+ssh inchivetest02
+ssh inchivetest03
+ssh inchivedev01
+ssh inchivedev02
+ssh inchivedev03
+clear
+ssh incuserappprod01
+ssh incuserappprod02
+ssh incuserappprod03
+ssh incjenkiprod01
+ssh incjenkiprod01
+ssh incjenkiprod01
+ssh incumbossrhel4
+ssh incumbossrhel4
+ll
+vi script.sh
+ll
+clear
+cd
+ll
+ssh inchivetest01
+ssh inchivetest01
+ssh inchivetest01
+ssh inchivetest01
+ssh inchivedev02
+ssh inchivetest01
+ssh inchivetest01
+ssh inchivetest01
+ssh inchivetest01
+ssh inchivetest01
+ssh inchivetest01
+ssh incumbossrhel4
+ssh inchivedev02
+ssh inchivedev02
+ssh inchivedev02
+ssh inchivedev02
+ssh inchivedev02
+ssh inchivedev02
+ssh incjenkiprod01
+ssh incjenkiprod01
+ssh incjenkiprod01
+ssh incjenkiprod01
+logout
+cd /etc/ansible_test/test/umboss_pm
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.umboss_pm.yml --become --ask-vault-pass
+ssh incumbossrhel4
+clear
+ssh incumbossrhel4
+clear
+cd
+ll
+vi .gitignore
+git status
+vi .gitignore
+git add -A
+vi .gitignore
+git status
+git commit -m "history added to .gitignore"
+git push origin master
+git status
+clear
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh inchivedev02
+vi zsh_serveri.txt
+ll
+git status
+vi .gitignore
+vi .gitignore
+git status
+vi .gitignore
+git status
+clear
+ssh incumbossrhel4
+ssh inchivedev03
+clear
+ssh incumbossrhel4
+clear
+ssh inchivedev02
+ta
+ta
+clear
+l
+ll
+cd /etc/ansible_test/test/umboss_fm
+ll
+clear
+ll
+ta
+sudo su -
+ssh incumbossrhel4
+cd /etc/ansible/hive/roles/hive_database/tasks
+cat install_postgresql.yml
+clear
+cd /etc/ansible/hive/roles/hive_database/tasks
+cd /etc/ansible
+cd hive_bht
+ll
+cd inventories
+ll
+rm -rf incumbossrhel4
+ll
+clear
+ssh incumbossrhel4
+clear
+ssh incumbossrhel4
+vi /home/lpirsic/.ssh/known_hosts
+vi /home/lpirsic/.ssh/known_hosts +33
+ssh incumbossrhel4
+ssh incumbossrhel4
+clear
+cd /etc/ansible_test/test/umboss_pm
+grep -R pgdg
+vi inventories/incumbossrhel4/group_vars/all 
+cd ../../../ansible/hive/roles/hive_database
+grep -R pgdg
+grep -R postgres
+vi tasks/install_postgresql.yml
+clear
+cd /etc/ansible/hive_bht
+vi site.hive.yml
+cd roles/hive_database/tasks
+vi main.yml
+vi add_postgres_yum_repo.yml
+vi add_postgres_yum_repo.yml
+vi add_postgres_yum_repo.yml
+vi install_postgresql_10.yml
+vi add_postgres_yum_repo.yml
+ll
+chmod +gs add_postgres_yum_repo.yml
+chmod g+s add_postgres_yum_repo.yml 
+sudo chmod g+s add_postgres_yum_repo.yml
+ll
+clear
+cd ../../../../hive/
+cd -
+clear
+cat install_postgresql_10.yml
+clear
+cd ../../..
+cd ..
+cp -r hive_bht ../ansible_test/test/
+cd ../ansible_test/test
+cd hive_bht
+ll
+cd roles
+cd hive_database/tasks
+clear
+vi add_postgres_yum_repo.yml
+clear
+vi add_postgres_yum_repo.yml
+vi install_postgresql_10.yml
+grep -R "bash script"
+vi configure_pgbackrest_backup.yml
+vi configure_pgbackrest_backup.yml
+clear
+vi configure_pgbackrest_backup.yml
+vi configure_pgbackrest_backup.yml
+vi configure_pgbackrest_backup.yml
+cd /etc/ansible/hive/roles/hive_database/tasks
+vi configure_pgbackrest_backup.yml
+clear
+ssh inchivedev02
+ssh inchivedev02
+ssh inchivedev02
+clear
+clear
+cd /etc/ansible/hive_bht
+ll
+ll inventories
+cd inventories
+clear
+ll
+man cp
+ll
+cd inchivedev02
+ll
+ll files
+ll
+cd ..
+ll
+clear
+cp -r inchivedev02 incumbossrhel4
+ll
+cd incumbossrhel4/files
+ll
+rm inchivedev02.inceptum.local.*
+ll
+ll
+chown lpirsic incumbossrhel4.inceptum.local.*
+sudo chown lpirsic incumbossrhel4.inceptum.local.*
+ll
+chmod 660 incumbossrhel4.inceptum.local.*
+ll
+chmod 770 incumbossrhel4.inceptum.local.*
+ll
+clear
+cd ..
+ll
+cd group_vars
+ll
+vi all
+vi secrets_vault.yaml
+ansible-vault decrypt secrets_vault.yaml
+vi secrets_vault.yaml
+vi secrets_vault.yaml
+vi secrets_vault.yaml
+vi secrets_vault.yaml
+ansible-vault encrypt secrets_vault.yaml
+cd ..
+clear
+ll
+cd host_vars
+ll
+cat *
+vi skripta.sh
+chmod +x skripta.sh
+ll
+./skripta.sh
+cat *
+vi skripta.sh
+vi skripta.sh
+./skripta.sh
+clear
+cat *
+rm skripta.sh
+clear
+cat *
+clear
+cd ..
+ll
+vi hosts
+cd ../..
+ll
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+cd ../../ansible_test/test/hive_bht
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+clear
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+cd /etc/ansible_test/test/hive_bht/roles/hive_database/templates
+ll
+less copy_pub_key_to_pgbackrest_repo.sh.j2
+cd ../../../inventories/incumbossrhel4/group_vars/all
+vi ../../../inventories/incumbossrhel4/group_vars/all
+vi ../../../inventories/inchivedev02/group_vars/all
+cd ../../../inventories
+ll
+rm -rf inchivedev02
+ll
+clear
+vi ../../../inventories/incumbossrhel4/group_vars/all
+vi incumbossrhel4/group_vars/all
+vi incumbossrhel4/group_vars/all
+ssh incumbossrhel4
+vi incumbossrhel4/group_vars/all
+mv incumbossrhel4 incumbossrhel5
+ll
+mv incumbossrhel5 incumbossrhel4
+ll
+clear
+ll
+clear
+ta
+clear
+ta
+vi .tmux.conf
+vi .tmux.conf
+tx
+clear
+ll
+vi .viminfo
+vim
+vi .vimrc
+vi .vimrc
+vi .vimrc
+vim .vimrc
+vim .vimrc
+vi a
+rm a
+cd /etc/ansible_test/test/umboss_fm/roles/postgresql_db/tasks/
+ll
+cp configure_pgbackrest_backup.yml ../../../../hive_bht/roles/hive_database/tasks
+vi configure_pgbackrest_backup.yml
+cd ../../../../../../ansible/hive/roles/hive_database/tasks
+vi configure_pgbackrest_backup.yml
+cd -
+vi configure_pgbackrest_backup.yml
+vi configure_pgbackrest_backup.yml
+cd ../../../inventories/incumbossrhel4/group_vars/all
+vi ../../../inventories/incumbossrhel4/group_vars/all
+cd ../vars
+ll
+cd ../../../inventories
+ll
+cd inc
+cd incumbossrhel4
+ll
+cd host_vars
+ll
+cat postgresql_db
+cd ../../../../hive_bht/inventories/incumbossrhel4/host_vars
+ll
+vi postgresql_db
+cat postgresql_db
+cat postgresql_db
+ll
+chmod 770 postgresql_db
+ll
+vi /etc/ansible/hive/roles/hive_database/tasks/configure_pgbackrest_backup.yml
+ll /etc/ansible/hive/roles/hive_database/vars
+vi /etc/ansible/hive/roles/hive_database/vars/.main.yml.new.swp
+vi /etc/ansible/hive_bht/roles/hive_database/vars/main.yml
+cd
+clear
+vi /etc/ansible/hive_bht/roles/hive_database/vars/main.yml
+vi /etc/ansible/hive_bht/roles/hive_database/vars/main.yml
+vi /etc/ansible/hive_bht/roles/hive_database/vars/main.yml
+vi /etc/ansible_test/test/hive_bht/roles/hive_database/vars/main.yml
+vi /etc/ansible_test/test/hive_bht/roles/hive_database/vars/main.yml
+vi /etc/ansible_test/test/hive_bht/roles/hive_database/tasks/configure_pgbackrest_backup.yml
+vi .vimrc
+vim --version
+vi .vimrc
+vim --version | grep clipboard
+yum list neo*
+yum list neo* | grep vim
+clear
+vim --version | grep clipboard
+yum list vim-*
+clear
+ta
+tx
+exit
+ta
+vi a
+cd /etc/ansible_test/test/hive_bht/roles/hive_database/tasks
+vi configure_pgbackrest_backup.yml
+mv configure_pgbackrest_backup.yml configure_pgbackrest_backup.yml.old
+ll
+vi configure_pgbackrest_backup.yml
+clear
+cd ../../..
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+clear
+cd
+ssh inchivedev02
+ta
+ta
+tx
+cd /etc/ansible_test/test/hive_bht
+ta
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+clear
+ta
+ta
+logout
+cd /etc/ansible_test/test/hive
+cd /etc/ansible_test/test/hive_bht
+clear
+vi /etc/ansible_test/test/hive_bht/roles/hive_database/tasks/configure_pgbackrest_backup.yml
+cd inventories/incumbossrhel4/host_vars
+cd ..
+vi hosts
+cd ../../
+clear
+cd roles
+ll
+mv hive_data
+mv hive_database hive_database_old
+ll
+cp -r /etc/ansible/hive/roles/hive_database ./
+ll
+clear
+vi ../inventories/incumbossrhel4/group_vars/all
+cd ..
+clear
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ssh incumbossrhel4
+ta
+logout
+ssh incumbossrhel4
+cd /etc/ansible_test/test/hive_bht/
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+cd /etc/ansible/sysadmin
+ansible-playbook --inventory-file /etc/ansible/sysadmin/inventories/inceptum/hosts site.yml --user=root --ask-pass --tags initial-users --limit inchivetest01
+ansible-playbook --inventory-file /etc/ansible/sysadmin/inventories/inceptum/hosts site.yml --tags initial-users --limit inchivetest01
+ansible-playbook --inventory-file /etc/ansible/sysadmin/inventories/inceptum/hosts site.yml --user=root --ask-pass --tags initial-users --limit inchivetest01
+clear
+ssh inchivetest01
+ta
+ta
+tx ls
+ta
+tr
+ta
+clear
+cd /etc/ansible_test/test/hive_bht
+cd inventories/incumbossrhel4/host_vars
+ll
+cat postgresql_db
+clear
+cd ../../..
+clear
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ssh incumbossrhel4
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+clear
+vi /etc/ansible/hive/inventories/inchivedev03/group_vars/all
+vi /etc/ansible/hive/inventories/inchivedev03/group_vars/all
+cd roles/hive_database/tasks
+grep -R 'Add users in'
+vi create_db_users.yml
+cd /etc/ansible/hive/inventories/centos7host/group_vars
+ll
+vi secrets_vault.yaml
+ansible-vault decrypt secrets_vault.yaml
+vi secrets_vault.yaml
+ansible-vault encrypt secrets_vault.yaml
+ll
+chmod 770 secrets_vault.yaml
+ll
+chmod g+s secrets_vault.yaml
+ll
+chown ansible secrets_vault.yaml
+sudo chown ansible secrets_vault.yaml
+ll
+chmod g+s secrets_vault.yaml
+sudo chmod g+s secrets_vault.yaml
+ll
+clear
+cd /etc/ansible_test/test/hive_bht/inventories/incumbossrhel4/group_vars
+ansible_vault decrypt secrets_vault.yaml
+ansible-vault decrypt secrets_vault.yaml
+vi secrets_vault.yaml
+vi ../../../roles/hive_database/tasks/configure_pgbackrest_backup.yml
+vi ../../../roles/hive_database/tasks/configure_db_for_monitoring.yml
+vi ../../../roles/hive_database/tasks/configure_postgresql_server.yml
+vi ../../../roles/hive_database/tasks/configure_postgresql_auth.yml
+vi ../../../roles/hive_database/tasks/configure_maintenance_crons.yml
+cd ../../../roles/hive_database/tasks
+grep -R 'Add users in'
+vi create_db_users.yml
+cd ../vars
+ll
+vi main.yml
+cd ../tasks
+ll
+vi create_db_users
+vi create_db_users.yml
+grep -R include
+grep -R secre
+cd ../..
+grep -R secre
+vi hive_umbpor/tasks/configure_hive_umbpor.yml
+cd hive_database/tasks
+vi create_db_users.yml
+vi create_db_users.yml
+vi create_db_users.yml
+clear
+grep -R "Create additional"
+vi create_db_users_addition.yml
+vi create_db_users.yml
+vi create_db_users.yml
+vi create_db_users_addition.yml
+vi create_db_users_addition.yml
+vi ../../../inventories/incumbossrhel4/group_vars/all
+vi /etc/ansible/hive/inventories/centos7host/group_vars/all
+vi ../../../inventories/incumbossrhel4/group_vars/all
+ansible-vault decrypt /etc/ansible/hive/inventories/centos7host/group_vars/secrets_vault.yaml
+ansible-vault decrypt ../../../inventories/incumbossrhel4/group_vars/secrets_vault.yaml
+vi /etc/ansible/hive/inventories/centos7host/group_vars/secrets_vault.yaml
+ansible-vault encrypt /etc/ansible/hive/inventories/centos7host/group_vars/secrets_vault.yaml
+ssh incumbossrhle4
+ssh incumbossrhel4
+clear
+cd
+clear
+ssh inchivedev03
+ssh inchivetest01
+clear
+ssh inchivedev03
+ssh inchivetest01
+ssh inchivedev02
+ssh inchivetest01
+ssh inchivetest01
+clear
+ssh incsystest01
+ssh incsystest01
+ssh incsystest01
+ssh incsystest01
+ssh incsystest01
+clear
+ta
+ta
+ssh incumbosstest03
+clear
+4BT*%uE[rxA
+ta
+ta
+ssh incumbossrhel4
+ssh inchivedev02
+ssh incumbosstest03
+ta
+ssh incumbossrhle4
+ssh incumbossrhel4
+ta
+ta
+logout
+ssh incselgrid01
+ssh incumbossrhel4
+ta
+ssh inchivetest01
+ssh incumbossrhel4
+ta
+vi .tmux.conf
+vi .tmux-keybindings.conf
+vi .tmux.conf
+at
+ta
+ta
+ssh incumbossrhel4
+clear
+ssh incumbossrhel4
+clear
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh inchivedev02
+ta
+clear
+ta
+ssh incsystest01
+ssh incsystest01
+logout
+ssh incsystest01
+scp /etc/ssl/certs/wildcard_inceptum.crt incsystest01:/etc/ssl/certs/
+sudo scp /etc/ssl/certs/wildcard_inceptum.crt incsystest01:/etc/ssl/certs/
+sudo scp /etc/ssl/certs/wildcard_inceptum.key incsystest01:/etc/ssl/certs/
+cd /etc/ssl/certs
+ll
+cd private
+sudo su
+clear
+ssh incsystest01
+ssh incsystest01
+logout
+ta
+ta
+ta
+ta
+ta
+ta
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incsystest01
+ssh incumbossrhel4
+ssh incumbossrhel4
+ta
+t
+ta
+ta
+ssh incsystest01
+ssh inchivetest01
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+clear
+ssh incumbossrhel4
+ssh incumbossrhel4
+ta
+ta
+clear
+ssh inchivedev02
+ssh inchivedev02
+clear
+ta
+ssh inchivedev02
+logout
+ta
+logout
+ta
+ta
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh inchivetest01
+cd /etc/ansible/hive/
+cd /opt/certauth/
+ll
+sudo su -
+cd inventories/
+ll
+clear
+ll
+cp -r centos7host incumbossrhel4
+ll
+cd incumbossrhel4
+cd files
+ll
+rm incsystest02.inceptum.local.*
+ll
+sudo su -
+clear
+ll
+sudo chown lpirsic incumbossrhel4.inceptum.local.*
+ll
+chmod 770 incumbossrhel4.inceptum.local.*
+ll
+chmod g+s incumbossrhel4.inceptum.local.*
+ll
+chmod g-s incumbossrhel4.inceptum.local.*
+ll
+clear
+cd ../group_vars
+ll
+vi all
+clear
+vi secrets_vault.yaml
+ansible-vault decrypt secrets_vault.yaml
+vi secrets_vault.yaml
+vi secrets_vault.yaml
+ansible-vault encrypt secrets_vault.yaml
+clear
+cd ..
+vi hosts
+cd host_vars
+ll
+cat hive_addressbook
+vi skripta.sh
+vi skripta.sh
+chmod +x skripta.sh
+ll
+./skripta.sh
+cat hive_addressbook
+./skripta.sh
+vi skripta.sh
+./skripta.sh
+cat hive_addressbook
+vi skripta.sh
+./skripta.sh
+cat hive_addressbook
+clear
+rm skripta.sh
+ll
+clear
+cd ../../..
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+vi inventories/incumbossrhel4/group_vars/all
+ansible-vault view inventories/incumbossrhel4/group_vars/secrets_vault.yaml
+ansible-vault view inventories/inchivetest01/group_vars/secrets_vault.yaml
+ansible-vault decrypt inventories/incumbossrhel4/group_vars/secrets_vault.yaml
+vi inventories/incumbossrhel4/group_vars/secrets_vault.yaml
+vi inventories/incumbossrhel4/group_vars/secrets_vault.yaml
+ansible-vault encrypt inventories/incumbossrhel4/group_vars/secrets_vault.yaml
+clear
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-vault view inventories/incumbossrhel4/group_vars/secrets_vault.yaml
+vi roles/hive_frontend/tasks/configure_nginx_hive.yml
+vi roles/hive_frontend/tasks/deploy_nginx_hive.yml
+grep -R "include"
+cd roles
+grep -R "include"
+grep -R "include" | grep secre
+grep -R "secret"
+vi hive_fsm/defaults/main.yml
+cd hive_database
+ll
+cd tasks
+ll
+vi create_db_users
+vi create_db_users.yml
+clear
+cd ../../hive_frontend
+ll
+cd tasks
+ll
+vi main.yml
+cd ../../hive_database
+vi tasks/main.yml
+cd /etc/ansible/umboss_pm/inventories/inceptum_test
+ll
+less hosts
+cd group_vars/
+ll
+vi secrets_vault.yaml
+vi all
+vi all
+cd /etc/ansible/hive/inventories/incumbossrhel4/group_vars
+ll
+vi secrets_vault.yaml
+chmog 644 secrets_vault.yaml
+chmod 644 secrets_vault.yaml
+ll
+clear
+cd ../..
+cd -
+ll
+vi secrets_vault.yaml
+ansible-vault view secrets_vault.yaml
+cd ../../../roles/hive_frontend/tasks
+ll
+vi main.yml
+vi deploy_nginx_hive.yml
+vi ../templates/nginx.vhost.j2
+cd ../templates
+ll
+cd -
+vi deploy_nginx_hive.yml
+vi deploy_nginx_hive.yml
+less /tmp/ansible/hive-frontend-environment.stage.template.json
+vi deploy_nginx_hive.yml
+clear
+cd ../../..
+grep -R "secrets"
+vi site.hive.yml
+clear
+cd roles/hive_database/tasks
+cd ..
+ll files
+cd tasks
+grep -R "Copy"
+grep -R "keystore"
+cd ../../hive_frontend/tasks
+grep -R "Copy"
+vi configure_nginx_hive.yml
+cd ../../../inventories/incumbossrhel4/group_vars/all
+vi ../../../inventories/incumbossrhel4/group_vars/all
+clear
+cd ../../../inventories/incumbossrhel4/group_vars/all
+vi ../../../inventories/incumbossrhel4/group_vars/all
+vi ../../../inventories/incumbossrhel4/group_vars/all
+cd ../../../inventories
+ll
+grep -R "svc_url_discovery"
+grep -R "svc_url_discovery_service"
+vi inchivetest01/group_vars/all
+vi incumbossrhel4/group_vars/all
+clear
+cd incumbossrhel4
+cd group_vars/
+ll
+vi secrets_vault.yaml
+ansible-vault view secrets_vault.yaml
+cd ../files
+ll
+clear
+ll
+scp incumbossrhel4.inceptum.local.jks incumbossrhel4:/tmp
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+cat /etc/nginx/conf.d/jenkins_ssl.conf
+ta
+ssh incumbossrhel4
+ta
+ssh incumbossrhel4
+ssh incumbossrhel4
+ta
+vi .tmux.conf
+ta
+ta
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ta
+ssh incumbossrhel4
+ssh incsystest01
+ssh incsystest01
+ta
+ta
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh inchivetest01
+ssh inchivetest01
+clear
+ta
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh inchivetest01
+ssh incumbossrhel4
+ta
+ssh inchivedev02
+ssh inchivetest01
+ssh inchivedev02
+ssh inchivetest01
+ssh inchivedev02
+ta
+ta
+ta
+ssh incumbossrhel4
+ssh incumbossrhel4
+clear
+clear
+cd
+ssh incumbossrhel4
+ssh incumbossrhel4
+clear
+clear
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ta
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh inchivedev02
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+clear
+ta
+ssh incumbossrhel4
+ta
+ta
+cd
+vi .tmux.conf
+vi .tmux-keybindings.conf
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+clear
+ssh incumbossrhel4
+ssh incsystest01
+ssh inchivetest01
+cd /etc/ansible/hive
+clear
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+claer
+clear
+cd ../sysadmin
+ll
+vi site.yml
+cd inventories/
+ll
+cd inceptum
+ll
+vi hosts
+vi hosts
+cd ../..
+ansible-playbook -i inventories/inceptum/hosts site
+ansible-playbook -i inventories/inceptum/hosts site.yml
+clear
+ansible-playbook --inventory-file /etc/ansible/sysadmin/inventories/inceptum/hosts site.yml --user=root --ask-pass --tags initial-users --limit incselgrid01
+ssh incselgrid01
+ping incselgrid01
+ssh incselgrid01
+clear
+ansible-playbook --inventory-file /etc/ansible/sysadmin/inventories/inceptum/hosts site.yml --user=root --ask-pass --tags initial-users --limit incselgrid01
+clear
+vi roles/common/tasks
+vi roles/common/tasks/main.yml
+ansible-playbook -i inventories/inceptum/host site.yml --limit incselgrid01
+ansible-playbook -i inventories/inceptum/hosts site.yml --limit incselgrid01
+ansible-playbook --inventory-file /etc/ansible/sysadmin/inventories/inceptum/hosts site.yml --user=root --ask-pass --tags initial-visudo --limit incselgrid01
+ansible-playbook -i inventories/inceptum/hosts site.yml --limit incselgrid01
+clear
+ssh incselgrid01
+clear
+cd ../hive
+history | grep incumbossrhel4
+history
+clear
+ansible-playbook -i inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook -i inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ssh incumbossrhel4
+clear
+cd roles
+ll
+cd ..
+vi site.hive.yml
+ansible-playbook -i inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+clear
+cd inventories/incumbossrhel4/group_vars
+less all
+cd /etc/nginx/conf.d/
+ll
+vi jenkins_ssl.conf
+cd -
+clear
+cd -
+ll
+cat jenkins_ssl.conf
+netstat -tulpn | grep 2222
+sudo netstat -tulpn | grep 2222
+sudo netstat -tulpn | grep 2222
+sudo netstat -tulpn
+clear
+cd -
+clear
+traceroute
+ip a
+clear
+vi all
+vi all
+vi all
+vi all
+nslookup 192.168.50.111
+clear
+cd......
+cd ../../../
+grep -R 'linux'
+grep -R 'selinux'
+vi ansible.cfg
+vi inventories/unishiveprod01/group_vars/all:
+vi inventories/unishiveprod01/group_vars/all
+ll inventories
+clear
+cd inventories/incumbossrhel4
+ll
+cd group_vars
+ll
+vi all
+vi all
+vi all
+vi all
+cd ../../../roles/hive_frontend/tasks
+ll
+cd ../templates
+ll
+vi nginx.vhost.j2
+cd -
+cd ../../../
+ansible-playbook -i inventories/incumbossrhel4/hosts site.hive.yml --ask-vault-pass
+ansible-playbook -i inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+vi inventories/incumbossrhel4/group_vars/all
+ansible-playbook -i inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+vi inventories/incumbossrhel4/group_vars/all
+vi inventories/incumbossrhel4/group_vars/all
+ll inventories/incumbossrhel4/files
+vi nginx.conf
+sudo vi nginx.conf
+ll
+mv nginx.conf inventories/incumbossrhel4/files
+ll
+ll inventories/incumbossrhel4/files
+chown lpirsic inventories/incumbossrhel4/files/nginx.conf
+sudo chown lpirsic inventories/incumbossrhel4/files/nginx.conf
+clear
+ll inventories/incumbossrhel4/files
+clear
+vi inventories/incumbossrhel4/group_vars/all
+ansible-playbook -i inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+vi inventories/incumbossrhel4/group_vars/all
+cat inventories/incumbossrhel4/files/nginx.conf
+clear
+cd inventories/incumbossrhel4/group_vars
+ll
+vi secrets_vault.yaml
+ansible-vault decrypt secrets_vault.yaml
+vi secrets_vault.yaml
+ansible-vault encrypt secrets_vault.yaml
+cleaer
+clear
+cd ../../..
+ansible-playbook -i inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+cd -
+ll
+chmod 644 secrets_vault.yaml
+ll
+cd -
+clear
+ansible-playbook -i inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+cd -
+vi secrets_vault.yaml
+ansible-vault decrypt secrets_vault.yaml
+vi secrets_vault.yaml
+vi secrets_vault.yaml
+ansible-vault encrypt secrets_vault.yaml
+chmod 644 secrets_vault.yaml
+ll
+clear
+cd -
+ansible-playbook -i inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook -i inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+clear
+cat inventories/incumbossrhel4/files/nginx.conf
+clear
+vi inventories/incumbossrhel4/group_vars/all
+ansible-playbook -i inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+vi inventories/incumbossrhel4/group_vars/all
+celar
+clear
+vi inventories/incumbossrhel4/group_vars/all
+ansible-playbook -i inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+cat inventories/incumbossrhel4/files/nginx.conf
+ssh incumbossrhel4
+ssh incumbossrhel4
+ta
+t
+tx
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh inchivedev02
+ta
+ta
+ta
+systemctl status nginx
+sudo systemctl start nginx
+journalctl -xe
+systemctl status nginx
+ta
+ta
+ta
+ta
+pwd
+pwd
+ta
+ssh incumbossrhel4
+ssh incumbossrhel4
+clear
+clear
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ta
+ssh incumbossrhel4
+ssh inchivedev02
+ta
+ssh incumbossrhel4
+clear
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+cat inventories/incumbossrhel4/files/nginx.conf
+ssh incumbossrhel4
+vi inventories/incumbossrhel4/group_vars/all
+cd /etc/ansible/hive
+vi inventories/incumbossrhel4/group_vars/all
+ansible-playbook -i inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+clear
+cat inventories/incumbossrhel4/files/nginx.conf
+clear
+telnet
+telnet incumbossrhel4.inceptum.local 443
+telnet incumbossrhel4.inceptum.hr 443
+telnet incumbossrhel4.inceptum.hr 443
+vi /etc/nginx/conf.d/in
+telnet incumbossrhel4.inceptum.hr 443
+telnet incumbossrhel4.inceptum.hr 443
+telnet incumbossrhel4.inceptum.hr 443
+telnet incumbossrhel4.inceptum.hr 443
+telnet incumbossrhel4.inceptum.hr 443
+telnet incumbossrhel4.inceptum.hr 443
+clear
+systemctl status nginx
+vi inventories/incumbossrhel4/group_vars/all
+ansible-playbook -i inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+vi inventories/incumbossrhel4/group_vars/all
+ansible-playbook -i inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ta
+vi .tmux.conf
+vi .tmux-keybindings.conf
+tx
+clar
+clear
+ssh incumbossrhel4
+ssh inchivetest01
+ssh incumbossrhel4
+ssh incumbossrhel4
+pwd
+pwd
+ssh incumbossrhel4
+pwd
+cd
+vi .tmux-keybindings.conf
+vi inventories/incumbossrhel4/group_vars/all
+cd /etc/ansible/hive
+vi inventories/incumbossrhel4/group_vars/all
+clear
+ansible-playbook -i inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+cd
+ta
+ta
+tx
+vi .tmux-keybindings.conf
+tx
+vi .tmux-keybindings.conf
+vi .tmux-keybindings.conf
+tx
+tx
+vi .tmux-keybindings.conf
+tx
+vi .tmux-keybindings.conf
+tmux --version
+yum list tmux
+$(pwd)
+$(pwd)
+cd /home/lpirsic/tmp
+$(pwd)
+tmux --version
+tmux -V
+ta
+vi .tmux-keybindings.conf
+vi .tmux.conf
+vi .tmux-keybindings.conf
+tx
+ta
+vi .tmux-keybindings.conf
+tx
+vi .tmux-keybindings.conf
+tx
+vi .tmux-keybindings.conf
+tx
+vi .tmux-keybindings.conf
+tx
+vi .tmux-keybindings.conf
+vi .tmux-keybindings.conf
+tx
+clear
+vi .tmux-keybindings.conf
+tx
+vi .tmux-keybindings.conf
+tmux
+pwd
+vi .tmux-keybindings.conf
+ssh incumbossrhel4
+cd /etc/ansible/hive
+ssh incumbossrhel4
+cd /etc/ansible
+clear
+vi .tmux
+vi .tmux-keybindings.conf
+tx
+vi .tmux-keybindings.conf
+tx
+tx
+vi .tmux-keybindings.conf
+tx
+vi .tmux-keybindings.conf
+tx
+vi .tmux-keybindings.conf
+tx
+vi .tmux-keybindings.conf
+clear
+tx
+ta
+clear
+ta
+claer
+clear
+ta
+ta
+ta
+ta
+ta
+ta
+ta
+ta
+clear
+ta
+ta\
+
+echo "nekaj"
+ta
+ta
+ssh incjenkiprod01
+ssh incuserapppord01
+clear
+curl -O https://inceptum-repo:HRKJUfR57ewcv9@veeam-repo.a1net.hr/inceptum.sh && chmod +x inceptum.sh && ./inceptum.Sudo 
+clear
+clear
+sudo curl -O https://inceptum-repo:HRKJUfR57ewcv9@veeam-repo.a1net.hr/inceptum.sh && sudo chmod +x inceptum.sh && sudo ./inceptum.sh
+clear
+clear
+sudo curl -O https://inceptum-repo:HRKJUfR57ewcv9@veeam-repo.a1net.hr/inceptum.sh && sudo chmod +x inceptum.sh && sudo ./inceptum.sh server inceptum-admin '$v33aM!365-inc' 
+ssh incjenkiprod01
+ssh incwebprod01
+ssh incuserappprod02
+ssh incjenkiprod01
+curl -O https://inceptum-repo:HRKJUfR57ewcv9@veeam-repo.a1net.hr/inceptum.sh && chmod +x inceptum.sh && ./inceptim.sh 
+ll
+sudo updatedb
+./inceptum.sh
+./inceptum.sh server inceptum $v33aMviinc
+sudo su -
+sudo ./inceptum.sh server inceptum-admin '$v33aM!365-inc'
+sudo veeam
+ssh incuserappprod01
+ssh incuserappprod02
+clear
+echo
+echo "nekaj"
+clear
+chron -a
+chrontab -l
+crontab -l
+sudo su -
+clear
+ssh incfsmctrlprod01
+ssh incsysappprod02
+ssh incsysappprod03
+ssh inchivedev02
+ssh incsystest01
+ssh incsystest01
+ssh incsystest01
+ssh incumbossrhel4
+ta
+ta
+tx
+ta
+ta
+ta
+cd cron
+ll
+sudo su -
+clear
+clear
+sudo crontab -r
+sudo crontab -e
+sudo su 0
+sudo su -
+clear
+ssh incfsmctrlprod01
+ssh incjenkiprod01
+ssh incsysappprod02
+ssh incsysappprod03
+ssh incuserappprod01
+ssh incuserappprod02
+ssh incwebprod01
+ta
+ta
+ta
+ssh incumbossrhel4
+ta
+ta
+ta
+ssh inchivedev02
+ta
+ta
+ta
+cat .ssh/authorized_keys
+ll
+rm inceptum.sh
+ll
+claer
+clear
+ll
+cat .tmux.conf
+clear
+cat .tmux-keybindings.conf
+ll
+cat .vimrc
+ta
+ssh incumbossrhel4
+ssh incumbossrhel4
+ta
+ssh incumbossrhel4
+cd /etc/ansible/hive/roles
+cd hive_security/tasks
+ll
+less install_hive_security.yml
+less copy_service_init_script.yml
+less configure_hive_security.yml
+cd ..
+less templates/hive-security.service.j2
+less templates/hive-security.service.j2
+cd ../hive_common
+ll
+cd tasks
+ll
+ll ../files
+cd ..
+cd ..
+ll
+cd hive_database
+ll
+cd tasks
+ll
+sudo chmod 660 configure_postgresql_auth.yml
+ll
+sudo chmod 760 configure_postgresql_auth.yml
+ll
+sudo chmod g+s configure_postgresql_auth.yml 
+ll
+sudo chmod g-s configure_postgresql_auth.yml 
+ll
+sudo chmod u+s configure_postgresql_auth.yml 
+ll
+sudo chmod u-s configure_postgresql_auth.yml 
+sudo chmod g+s configure_postgresql_auth.yml 
+ll
+clear
+ll
+vi main.yml
+ll
+less main.yml
+less main.yml
+less configure_postgresql_auth.yml
+less main.yml
+ll ../../hive_common/files
+less ../../../inventories/inchivetest01/group_vars/all
+less configure_postgresql_auth.yml
+cd ../vars
+ll
+vi mail.yml
+vi .main.yml.new.swp
+ll
+vi mail.yml.new
+cd ..
+cd ..
+grep -R 'pg_conf_dir_path'
+cd hive_database/tasks
+vi configure_postgresql_auth.yml
+vi ../templates/pg_hba.conf.j2
+vi configure_postgresql_auth.yml
+vi ../templates/pg_hba.conf.j2
+cat ../templates/pg_hba.conf.j2
+vi configure_postgresql_auth.yml
+ll
+less main.yml
+less add_postgres_yum_repo.yml
+less in
+less init_and_start_postgresql.yml
+less install_postgresql.yml
+cd ..
+grep -R 'nologin'
+cd..
+cd ..
+cd ..
+grep -R 'nologin'
+vi site.hive.yml
+cd roles/hive_database/
+ll
+ll tasks
+less tasks/create_db_users
+less tasks/create_db_users.yml
+less tasks/create_db_users_addition.yml
+clear
+cd ../hive_security/tasks
+ll main.yml
+less main.yml
+less install_hive_security.yml
+less install_hive_security.yml
+less install_hive_security.yml
+less configure_hive_security.yml
+less copy_service_init_script.yml
+less main.yml
+less install_hive_security.yml
+less copy
+less copy_service_init_script.yml
+less configure_hive_security.yml
+less configure_hive_security.yml
+cd ../../../
+less inventories/incumbossrhel4/group_vars/secrets_vault.yaml
+ansible-vault view inventories/incumbossrhel4/group_vars/secrets_vault.yaml
+cd -
+less configure_hive_security.yml
+cd
+ssh incumbossrhel4
+cd /etc/ansible/hive/roles/hive_database/vars
+ll
+cd ../../../
+less inventories/inchivetest01/group_vars/all
+ll inventories
+less inventories/incumbossrhel4/group_vars/all
+grep -R 'pg_conf_dir_path'
+less inventories/incumbossrhel4/group_vars/all
+less inventories/incumbossrhel4/group_vars/all
+clear
+ssh incumbossrhel4
+cd roles/hive_security/templates
+ll
+cat env.j2
+ssh incumbossrhel4
+ta
+ssh inchivedev02
+ta
+ssh incumbossrhel4
+cd
+ssh incsystest01
+ssh incsystest01
+clear
+ssh inchivedev02
+ssh incsystest01
+ssh incumbossrhel4
+ta
+ssh incumbossrhel4
+ssh incsystest01
+ssh incumbossrhel4
+ta
+ssh inchivedev02
+ta
+ssh incumbossrhel4
+clear
+cd /etc/ansible/hive/roles/hive_security/tasks
+ll
+vi main.yml
+vi copy_service_init_script.yml
+vi configure_hive_security.yml
+vi configure_hive_security.yml
+cd ../../../inventories/incumbossrhel4
+grep -R 'ssl_trust_store_path'
+clear
+grep -R 'ssl_cert_dir''
+grep -R 'ssl_cert_dir'
+ssh incumbossrhel4
+ssh incumbossrhel4
+ta
+ssh incummbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ta
+cat /etc/ansible/hive/roles/hive_security/tasks/configure_hive_security.yml
+ssh incumbossrhel4
+ta
+ssh incumbossrhel4
+cd tasks
+cat configure_hive_security.yml
+ta
+ssh inchivedev-2
+ssh inchivedev02
+ta
+ssh incumbossrhel4
+clear
+cd ../hive_frontend/tasks/k
+cd ../hive_frontend/tasks/
+ll
+vi configure_nginx_hive.yml
+vi deploy_nginx_hive.yml
+vi install_nginx.yml
+vi configure_nginx_hive.yml
+ssh incumbossrhel4
+cd ../../hive_security/tasks
+ll
+cd ..
+cd templates
+ll
+vi hive-security.service.j2
+vi ../../../inventories/incumbossrhel4/group_vars/all
+vi ../../../inventories/inchivetest01/group_vars/all
+vi ../../../inventories/incumbossrhel4/group_vars/all
+sudo su -
+clear
+ta
+ansible-vault view ../../inventories/incumbossrhel4/group_vars/secrets_vault.yaml
+vi ../../../inventories/incumbossrhel4/group_vars/all
+vi ../../../inventories/incumbossrhel4/group_vars/all
+vi ../../../inventories/incumbossrhel4/group_vars/all
+rm "/home/lpirsic/tmp/all.swp"
+rm /home/lpirsic/tmp/all.swp
+vi ../../inventories/incumbossrhel4/group_vars/all
+vi tasks/configure_hive_security.yml
+vi tasks/configure_hive_security.yml
+jobs -r
+jobs
+cd tasks
+vim ../../../inventories/incumbossrhel4/group_vars/all
+jobs
+jobs -l
+kill %1
+jobs -l
+kill
+man kill
+kill -p 32004
+kill -l
+jobs
+ssh inchivedev02
+ta
+ta
+ssh incumbossrhel4
+ansible-vault view ../../inventories/incumbossrhel4/group_vars/secrets_vault.yaml
+ssh incumbossrhel4
+vi ../../../inventories/incumbossrhel4/group_vars/all
+ssh incumossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ta
+clear
+ta
+ta
+cd /etc/ansible/hive/roles/hive_security/tasks
+ll
+less configure_hive_security.yml
+sudo su -
+ansble-vault view ../../../inventories/incumbossrhel4/group_vars/secrets_vault.yaml
+ansible-vault view ../../../inventories/incumbossrhel4/group_vars/secrets_vault.yaml
+sudo su -
+scp ../../../inventories/incumbossrhel4/files/hive_truststore.jks incsystest01:/home/lpirsic/docker/nginx/
+clear
+sudo su -
+cd ../../hive_database/tasks
+ll
+less configure_postgresql_auth.yml
+less configure_postgresql_auth.yml
+cd ../..
+grep -R 'pg_service_name'
+ssh incsystest01
+clear
+cd
+sudo docker pull centos:7
+sudo docker images
+clear
+ssh incsystest01
+ssh incsystest01
+clear
+ssh incsystest01
+ssh incsystest01
+clear
+ssh incsystest01
+cd /etc/ansible/hive/roles/hive-sec
+cd /etc/ansible/hive/roles/hive_security
+cd tasks
+cd ..
+ll
+ll defaults
+less defaults/main.yml
+less handlers/main.yml
+less templates/hive-security.service.j2
+less defaults/main.yml
+claer
+clear
+ssh incsystest01
+ssh incsystest01
+ssh incsystest01
+clear
+cd
+cd /etc/ansible_test/test
+ll
+cd ../../ansible/hive/roles/hive_frontend/templates
+cp nginx.vhost.j2 nginx.new.vhost.j2
+ll
+cat nginx.vhost.j2
+clear
+cat nginx.vhost.j2
+clear
+vi /etc/ansible/hive/inventories/incumbossrhel4/group_vars/all
+vi /etc/ansible/hive/roles/hive_frontend/tasks/configure_nginx_hive.yml
+vi /etc/ansible/hive/roles/hive_addressbook/tasks/configure_hive_addressbook.yml
+vi /etc/ansible/hive/roles/hive_addressbook/tasks/configure_hive_addressbook.yml
+vi /etc/ansible/hive/roles/hive_frontend/tasks/configure_nginx_hive.yml
+vi /etc/ansible/hive/roles/hive_frontend/templates/nginx.vhost.j2
+vi /etc/ansible/hive/roles/hive_frontend/templates/nginx.new.vhost.j2
+vi /etc/ansible/hive/roles/hive_frontend/templates/nginx.vhost.j2
+cd ../../../
+cd 0
+cd -
+cd /etc/ansible/hive
+ll
+grep -R "if"
+cd roles
+clear
+grep -R "if"
+grep -R "if" | grep tasks
+clear
+grep -R "if" | grep tasks | grep -v "notify"
+vi hive_addressbook/tasks/install_hive_addressbook.yml
+vi hive_frontend/templates/nginx.vhost.j2
+cd hive_frontend/templates
+ll
+vi nginx.new.vhost.j2
+cd ../tasks
+ll
+vi configure_nginx_hive.yml
+vi deploy_nginx_hive.yml
+clear
+cd ../templates
+vi nginx.new.vhost.j2
+vi nginx.new.vhost.j2
+clear
+cd
+clear
+ta
+ta
+clear
+ssh inchivedev02
+clear
+ssh incfsmctrlprod01
+clear
+ssh incjenkiprod01
+ssh incsysappprod02
+clear
+ssh incsysappprod03
+ssh incuserappprod01
+ssh incuserappprod02
+ssh incwebprod01
+clear
+ssh inchivedev02
+ssh inchivedev02
+ssh inchivedev02
+lsblk
+sudo veeam
+lsblk
+clear
+	clear
+ssh inchivedev02
+ssh incumbossrhel4
+clear
+cd .ssh
+ll
+less authorized_keys
+clear
+clear
+cd
+clear
+ssh incsystest01
+ssh incumbossrhel4
+cd /etc/ansible/hive/roles/hive_frontend
+ll
+cd tasks
+ll
+vi main.yml
+vi install_nginx.yml
+vi main.yml
+vi configure_nginx_hive.yml
+vi deploy_nginx_hive.yml
+	clear
+cd
+ssh incselgrid01
+clear
+ta
+du -sh
+ll
+du * -sh
+du * -sh
+ll
+ssh inchivedev02
+ta
+tx
+cd /etc/ansible_test/test
+ll
+mkdir test
+ll
+touch test/test.txt
+ll test
+ll
+zip
+man zip
+zip test
+ll
+zip test test.zip
+zip test test.zip test.zip
+zip test.zip test
+ll
+unzip test.zip
+ll
+unzip test.zip test1
+ll
+ll test
+man zip
+man tar
+man tar
+tar -cvzf test.tar.gz test
+ll
+cd ..
+cd ..
+lll
+ll
+tar -cvzf ansible.tar.gz ansible
+sudo tar -cvzf ansible.tar.gz ansible
+ll | grep an
+cd ansible/hive
+ll
+cd ..
+ll
+tar -czf hive.tar.gz hive
+claer
+clear
+ll
+cd ..
+ll | grep ansible
+rm ansible.tar.gz
+sudo rm ansible.tar.gz
+ll | grep ansible
+clear
+clear
+ssh incumbossrhel4
+ta
+ssh incsystest01
+ssh incumbossrhel4
+cd ansible/hive/inventories/incumbossrhel4
+ansible-vault view group_vars/secrets_vault.yaml
+ssh incumbossrhel4
+clear
+ssh incumbossrhel4
+cd ../..
+vi roles/hive_frontend/templates
+vi roles/hive_frontend/templates/nginx.new.vhost.j2
+vi roles/hive_frontend/templates/nginx.new.vhost.j2
+vi inventories/incumbossrhel4/group_vars/all
+ta
+ssh incumbossrhel4
+cd /etc/ansible/hive/roles/hive_frontend/templates
+ll
+vi nginx.
+vi nginx.new.vhost.j2
+K
+K
+vi nginx.new.vhost.j2
+vi ../../../inventories/incumbossrhel4/group_vars/all
+vi ../../../inventories/incumbossrhel4/group_vars/all
+vi nginx.new.vhost.j2
+vi nginx.new.vhost.j2
+vi nginx.new.vhost.j2
+vi nginx.new.vhost.j2
+clear
+vi nginx.new.vhost.j2
+cd ../../..
+ll
+ssh incumbossrhel4
+ssh incumbossrhel4
+clear
+ssh incumbossrhel4
+ssh inchivetest01
+ssh incumbossrhel4
+clear
+ssh incumbossrhel4
+clear
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+cd /etc/hive/ansible/
+cd /etc/ansible/hive
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+vi inventories/incumbossrhel4/group_vars/all
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+vi inventories/incumbossrhel4/group_vars/all
+cd roles/hive_frontend/templates
+ll
+mv nginx.vhost.j2 nginx.vhost.j2.old
+mv nginx.new.vhost.j2 nginx.vhost.j2
+ll
+cd ../../..
+ll
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+vi roles/hive_frontend/templates/nginx.vhost.j2
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+vi roles/hive_frontend/templates/nginx.vhost.j2
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+vi inventories/incumbossrhel4/group_vars/all
+vi roles/hive_frontend/templates/nginx.vhost.j2
+vi inventories/incumbossrhel4/group_vars/all
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+vi roles/hive_frontend/templates/nginx.vhost.j2
+vi inventories/incumbossrhel4/group_vars/all
+clear
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+vi inventories/incumbossrhel4/group_vars/all
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ssh incumbossrhel4
+ta
+tx
+ta
+tx
+tx
+vi /etc/ansible/hive/roles/hive_frontend/templates/nginx.vhost.j2
+ssh incumbossrhel4
+ssh incsystest01
+ssh incsystest01
+ta
+ta
+ta
+ta
+ta
+ssh inchivedev02
+ssh incumbossrhel4
+vi roles/hive_frontend/templates/nginx.vhost.j2
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+clear
+ssh incumbossrhel4
+clear
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh inchivetest01
+ssh incumbossrhel4
+ssh inchivetest01
+ssh incumbossrhel4
+ssh incumbossrhel4
+clear
+ssh incumbossrhel4
+ta
+ta
+ssh incumbossrhel4
+clear
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+cd /etc/ansible/hive
+ll
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+clear
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+cd inventories/incumbossrhel4/files
+ll
+cd 
+cd -
+cd ../group_vars
+ll
+vi all
+clear
+vi secrets_vault.yaml
+ansible-vault view secrets_vault.yaml
+cd ../../..
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+clear
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+clear
+vi roles/hive_frontend/templates
+vi roles/hive_frontend/templates/nginx.vhost.j2
+vi roles/hive_frontend/templates/nginx.vhost.j2
+vi roles/hive_frontend/templates/nginx.vhost.j2
+sudo rm roles/hive_frontend/templates/.nginx.vhost.j2.swp
+vi roles/hive_frontend/templates/nginx.vhost.j2
+vi roles/hive_frontend/templates/nginx.vhost.j2
+cd roles/hive_frontend/templates/
+ll
+mv nginx.vhost.j2 nginx.vhost.j2.ol
+mv nginx.vhost.j2.old nginx.vhost.j2
+mv nginx.vhost.j2.ol nginx.vhost.j2.old
+ll
+vi nginx.vhost.j2
+vi nginx.vhost.j2.old
+clear
+cd ../../..
+cd -
+ll
+mv nginx.vhost.j2 nginx.vhost.j2.bak
+mv nginx.vhost.j2.old nginx.vhost.j2
+ll
+vi nginx.vhost.j2
+cd -
+ll
+clear
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+s
+clear
+vi inventories/incumbossrhel4/group_vars/all
+cd /etc/ansible_test/test/umboss_fm
+ll
+cd roles/fms_api_processor/tasks
+ll
+vi install_python3_with_packages.yml
+ssh incumbossrhel1
+ssh incumbossrhel2
+vi install_python3_with_packages.yml
+ssh incumbossrhel2
+ssh incumbossrhel3
+ssh incumbossrhel2
+vi install_python3_with_packages.yml
+vi install_python3_with_packages.yml
+vi install_python3_with_packages.yml
+vi install_python3_with_packages.yml
+rm .install_python3_with_packages.yml.swp
+vi install_python3_with_packages.yml
+ssh incumbossrhel2
+ta
+vi tmp/a
+ta
+tx
+ssh incumbossrhel4
+ssh incumbossrhel4
+ta
+ssh incumbossrhel4
+clear
+ansible-vault view inventories/incumbossrhel4/group_vars/secrets_vault.yaml
+ssh incumbossrhel4
+clear
+ta
+ta
+ta
+ssh incumbossrhel4
+vi roles/hive_administration/tasks/configure_hive_administration.yml
+vi roles/hive_administration/tasks/configure_hive_administration.yml
+vi inventories/incumbossrhel4/group_vars/all
+vi roles/hive_administration/tasks/configure_hive_administration.yml
+ssh incumbossrhel4
+ssh incsystest01
+ta
+ta
+ssh inchivedev-2
+ssh inchivedev02
+ssh incumbossrhel1
+ssh incumbossrhel4
+ssh incsystest01
+ta
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incsystest02
+ssh incumbossrhel4
+ssh incumbossrhel2
+clear
+cd /etc/ansible/hive/inventories/incumbossrhel4/group_vars/all
+vi /etc/ansible/hive/inventories/incumbossrhel4/group_vars/all
+cd /etc/ansible/hive
+vi roles/hive_frontend/tasks/configure_nginx_hive.yml
+vi roles/hive_frontend/tasks/main.yml
+vi /etc/ansible/hive/inventories/incumbossrhel4/group_vars/all
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass --tags configure-nginx-hive
+vi roles/hive_frontend/tasks/main.yml
+vi roles/hive_frontend/tasks/configure_nginx_hive.yml
+vi roles/hive_security/tasks/configure_hive_security.yml
+vi /etc/ansible/hive/inventories/incumbossrhel4/group_vars/all
+vi roles/hive_security/tasks/configure_hive_security.yml
+vi roles/hive_security/tasks/main.yml
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass --tags configure-hive-security
+vi /etc/ansible/hive/inventories/incumbossrhel4/group_vars/all
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass --tags configure-hive-security
+vi /etc/ansible/hive/inventories/incumbossrhel4/group_vars/all
+vi /etc/ansible/hive/inventories/incumbossrhel4/group_vars/all
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass --tags configure-hive-security
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass --tags configure-hive-security
+vi /etc/ansible/hive/inventories/incumbossrhel4/group_vars/all
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass --tags configure-hive-security
+vi /etc/ansible/hive/inventories/incumbossrhel4/group_vars/all
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass --tags configure-hive-security
+vi /etc/ansible/hive/inventories/incumbossrhel4/group_vars/all
+vi /etc/ansible/hive/inventories/incumbossrhel4/group_vars/all
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass --tags configure-hive-security
+ssh incumbossrhel4
+clear
+vi inventories/incumbossrhel4/group_vars/all
+cd
+cd /etc/ansible
+ll
+cd hive_bht
+ll
+cd roles/hive_bhtinv/tasks
+lll
+ll
+vi install_hive_bhtinv.yml
+vi main.yml
+clear
+ssh incsystest01
+ssh incsystest01
+vi inventories/incumbossrhel4/group_vars/all
+cd ../../..
+vi inventories/incumbossrhel4/group_vars/all
+cd ..
+cd hive
+cd ..
+vi inventories/incumbossrhel4/group_vars/all
+cd ..
+cd ansible/hive
+vi inventories/incumbossrhel4/group_vars/all
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass --tags configure-hive-security
+vi inventories/incumbossrhel4/group_vars/all
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass --tags configure-hive-security
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass --tags configure-hive-security
+vi inventories/incumbossrhel4/group_vars/all
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass --tags configure-hive-security
+vi inventories/incumbossrhel4/group_vars/all
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass --tags configure-hive-security
+vi inventories/incumbossrhel4/group_vars/all
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass --tags configure-hive-security
+vi inventories/incumbossrhel4/group_vars/all
+clear
+cd ../umboss_fm
+ll
+cd roles
+ll
+ll fms_api_processor/tasks/
+vi fms_api_processor/tasks/install_python3_with_packages.yml
+vi fms_api_processor/tasks/main.yml
+cd ..
+ll inventories
+cd inventories
+ll
+cp -r inceptum_test incsystest01
+ll
+cd incsystest01
+ll
+vi hosts.yml
+vi files
+ll files
+vi group_vars/all
+ll host_vars
+cd host_vars
+ll
+clear
+ll
+vi flume_node_1
+cat *
+vi script.sh
+vi script.sh
+chmod +x script.sh
+./script.sh
+cat *
+vi script.sh
+./script.sh
+clear
+cat *
+vi flume_node_2
+cat *
+ll
+vi fms_sanity_check
+vi fms_reporter_gw
+clear
+cat *
+rm script.sh
+ll
+clar
+claer
+clear
+cat *
+clear
+ll
+cat *
+cd ../..
+cd ..
+ll
+vi site.umboss_fm.yml
+clear
+ll roles/fms_api_processor/tasks
+vi inventories/incsystest01/group_vars/secrets_vault.yaml
+ansible-playbook inventories/incsystest01/hosts.yml site.umboss_fm.yml --become 
+vi inventories/incsystest01/hosts.yml
+diff inventories/incsystest01/hosts.yml inventories/inceptum_test/hosts.yml
+vi inventories/incsystest01/host_vars/flume_node_2
+ansible-playbook -i inventories/incsystest01/hosts.yml site.umboss_fm.yml --become
+ansible-playbook -i inventories/incsystest01/hosts.yml site.umboss_fm.yml --become --limit install-python3-with-packages
+ansible-playbook -i inventories/incsystest01/hosts.yml site.umboss_fm.yml --become --tags install-python3-with-packages
+ansible-playbook -i inventories/incsystest01/hosts.yml site.umboss_fm.yml --become --tags install-python3-with-packages
+ansible-playbook -i inventories/incsystest01/hosts.yml site.umboss_fm.yml --become 
+ansible-playbook --inventory-file=inventories/incsystest01/hosts.yml site.umboss_fm.yml --become --extra-vars "ignite_password=ignite"
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts.yml site.umboss_fm.yml --become 
+ansible-playbook --inventory-file=inventories/incsystest01/hosts.yml site.umboss_fm.yml --become 
+vi roles/fms_ticket_handler/tasks/install_python3_with_packages.yml
+cd ../hive
+ll
+vi inventories/incumbossrhel4/group_vars/all
+vi inventories/incumbossrhel4/group_vars/all
+cd ../../..
+cd ..
+cd hive/
+ll
+clear
+cd ../../../../hive
+ll
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass --tags configure-hive-security
+clear
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass --tags configure-hive-security
+vi inventories/incumbossrhel4/group_vars/all
+vi inventories/incumbossrhel4/group_vars/all
+clear
+ssh incsystest01
+cd ../../..
+cd ../umboss_pm
+ll
+cd roles
+ll
+cd ..
+cd ../umboss_fm
+ll
+cd roles
+ll
+cd fms_event_processor/tasks
+vi install_python3_with_packages.yml
+ssh incsystest01
+cd ../../../../umboss_pm/roles/pm_admin
+ll
+cd tasks
+ll
+vi configure_pm_admin.yml
+vi copy_service_init_script.yml
+vi install_pm_admin.yml
+ssh incsystest01
+ssh incumbossrhel4
+clear
+clear
+ta
+ta
+ta
+ta
+tx
+ta
+ssh inchivedev02
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel
+ssh incumbossrhel4
+ssh incsystest01
+ta
+clear
+cd /etc/ansible/hive
+vi inventories/incumbossrhel4/group_vars/all
+ta
+cd
+clear
+ta
+ta
+ta
+ssh inchivetest01
+ta
+ta
+ta
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+K
+K
+ssh incumbossrhel4
+ssh incumbossrhel4
+ta
+ssh incumbossrhel4
+vi /etc/nginx/conf.d/in
+ta
+ta
+ta
+ta
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ta
+ta
+ssh inchivetest01
+ssh incumbossrhel4
+ssh incumbossrhel4
+ta
+ssh incsystest01
+ssh incsystest01
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ta
+ta
+ssh incumbossrhel4
+ssh incsystest01
+ssh incsystest01
+ssh incumbossrhel4
+ansible-vault view inventories/incumbossrhel4/group_vars/secrets_vault.yaml
+ssh incumbossrhel4
+ta
+ssh incsystest01
+ssh incumbossrhel4
+ansible-vault view inventories/incumbossrhel4/group_vars/secrets_vault.yaml
+ssh incumbossrhel4
+ssh inchivedev03
+ssh inchivedev02
+1
+clea
+clear
+cd /etc/ansible/hive
+vi inventories/incumbossrhel4/group_vars/all
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass --tags configure-hive-security
+vi inventories/incumbossrhel4/group_vars/all
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass --tags configure-hive-security
+vi inventories/incumbossrhel4/group_vars/all
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass --tags configure-hive-security
+vi inventories/incumbossrhel4/group_vars/all
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass --tags configure-hive-security
+vi inventories/incumbossrhel4/group_vars/all
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass --tags configure-hive-security
+vi inventories/incumbossrhel4/group_vars/all
+vi inventories/incumbossrhel4/group_vars/all
+ansible-playbook --inventory-file=inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass --tags configure-hive-security
+clear
+cd ../umboss_fm/roles/fms_ticket_handler/tasks
+ll
+vi install_python3_with_packages.yml
+clear
+cd ../../../..
+ll
+cd hive/inventories/incumbossrhel4/group_vars/all
+vi hive/inventories/incumbossrhel4/group_vars/all
+vi hive/inventories/incumbossrhel4/group_vars/all
+cd hive
+clear
+ansible-playbook -i inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook -i inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+vi hive/inventories/incumbossrhel4/group_vars/all
+vi inventories/incumbossrhel4/group_vars/all
+vi roles/hive_frontend/templates/nginx.vhost.j2
+clear
+ansible-playbook -i inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook -i inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+cat roles/hive_frontend/templates/nginx.vhost.j2
+clear
+ansible-playbook -i inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook -i inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+vi inventories/incumbossrhel4/group_vars/all
+ansible-playbook -i inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook -i inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ip a
+vi inventories/incumbossrhel4/group_vars/all
+vi roles/hive_frontend/templates/nginx.vhost.j2
+ansible-playbook -i inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+clear
+vi inventories/inchivetest01/group_vars/all
+vi roles/hive_addressbook/tasks/configure_hive_addressbook.yml
+vi roles/hive_addressbook/tasks/main.yml
+vi roles/hive_addressbook/tasks/configure_hive_addressbook.yml
+vi roles/hive_addressbook/tasks/configure_hive_addressbook.yml
+vi roles/hive_addressbook/tasks/configure_hive_addressbook.yml
+vi roles/hive_addressbook/tasks/configure_hive_addressbook.yml
+rm roles/hive_addressbook/tasks/.configure_hive_addressbook.yml.swp
+vi roles/hive_addressbook/tasks/configure_hive_addressbook.yml
+vi roles/hive_addressbook/tasks/main.yml
+ansible-playbook -i inventories/inchivetest01/hosts site.hive.yml --become --ask-vault-pass --tags redeploy
+vi roles/hive_frontend/tasks/main.yml
+vi roles/hive_frontend/tasks/configure_nginx_hive.yml
+vi roles/hive_frontend/tasks/configure_nginx_hive.yml
+vi roles/hive_frontend/tasks/main.yml
+vi roles/hive_frontend/tasks/deploy_nginx_hive.yml
+ansible-playbook -i inventories/inchivetest01/hosts site.hive.yml --become --ask-vault-pass --tags configure-nginx-hive
+vi ../umboss_fm/roles/fms_ticket_handler/tasks/install_python3_with_packages.yml
+vi inventories/incumbossrhel4/group_vars/secrets_vault.yaml
+vi inventories/inchivetest01/group_vars/secrets_vault.yaml
+vi inventories/inchivetest01/group_vars/secrets_vault.yaml
+clear
+ta
+vi .tmux-keybindings.conf
+ta
+tx
+clear
+ta
+tx
+ta
+ta
+ta
+ta
+ta
+ta
+ta
+ta
+ssh inchivetest01
+ta
+ta
+ta
+ta
+ta
+ta
+ta
+ta
+ta
+ll inventories/incumbossrhel4/files
+ll
+ll inventories/incumbossrhel4/files
+clear
+ssh incumbossrhel4
+ll inventories/incumbossrhel4/files
+ssh incumbossrhel4
+ssh incumbossrhel4
+ta
+ta
+ta
+ta
+ta
+ta
+ta
+ta
+ta
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+ssh incumbossrhel4
+clear
+clear
+ssh incumbossrhel4
+claer
+ssh incumbossrhel4
+ta
+ta
+ta
+ta
+ta
+ta
+ta
+ta
+ta
+ta
+ssh incumbosstest03
+clear
+cd /etc/ansible/hive
+ll
+cd inventories
+ll
+cd inchivetest01/
+ll
+ll files
+cd ../..
+cd roles/hive_umbpor/
+ll
+cd ..
+ll
+cd ..
+	ll
+cd inventories
+ll
+cd centos7host
+ll
+ll files
+clear
+cd
+clear
+clear
+cd /etc/ansible
+l
+ll
+rm hive.tar.gz
+ll
+clear
+clear
+vi hive/inventories/incumbossrhel4/group_vars/all
+vi hive/inventories/incumbossrhel4/group_vars/all
+vi hive/inventories/incumbossrhel4/group_vars/all
+clear
+cd hive
+clear
+ansible-playbook -i inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ll inventories/incumbossrhel4/files
+vi roles/hive_frontend/tasks/install_nginx.yml
+vi roles/hive_frontend/tasks/install_nginx.yml
+cd roles/hive_frontend
+grep -R 'Install Hive Fr'
+vi tasks/deploy_nginx_hive.yml
+cd ../..
+vi inventories/incumbossrhel4/group_vars/all
+ansible-playbook -i inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+vi inventories/incumbossrhel4/group_vars/all
+ansible-playbook -i inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+vi roles/hive_manipulation/tasks/install_hive_manipulation.yml
+ansible-playbook -i inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+ansible-playbook -i inventories/incumbossrhel4/hosts site.hive.yml --become --ask-vault-pass
+vi ../hive_bht/inventories/inchivedev02/group_vars/all
+vi ../hive_bht/inventories/inchivedev02/group_vars/all
+cd ../umboss_fm
+ll
+cd roles/
+grep -R proxy
+cd ..
+grep -R proxy
+vi site.umboss_fm.yml
+head site.umboss_fm.yml
+vi site.umboss_fm.yml
+sudo su -
+clear
+cd ../hive_bht
+cd roles/hive_database/tasks
+vi main.yml
+vi add_postgres_yum_repo.yml
+vi main.yml
+vi install_postgresql_10.yml
+vi main.yml
+cd ../../hive_frontend/tasks
+ll
+vi main.yml
+vi main.yml
+cd ../../hive_common/tasks
+vi main.yml
+vi add_local_repo.yml
+ansible --version
+clear
+cd ../..
+vi hive_database/tasks/add_postgres_yum_repo.yml
+grep -R baseurl
+grep -R pgdg
+cd ..
+grep -R pgdg
+cd ..
+cd hive/inventories/incumbossrhel4
+grep -R pgdg
+clear
+cd ../../roles/
+vi hive_database/tasks/main.yml
+vi hive_database/tasks/install_postgresql.yml
+cat hive_database/tasks/install_postgresql.yml
+cd ..
+vi inventories/incumbossrhel4/group_vars/all
+clear
+vi roles/hive_common/tasks/install_java_openjdk_13.yml
+cat roles/hive_common/tasks/install_java_openjdk_13.yml
+ll inventories/incumbossrhel4/files
+ll roles/hive_common/files
+cat roles/hive_common/tasks/main.yml
+cat roles/hive_common/tasks/install_java_openjdk_latest.yml
+clear
+cat roles/hive_common/tasks/install_java_openjdk_13.yml
+cat roles/hive_common/tasks/main.yml
+cat roles/hive_common/tasks/install_java_openjdk_latest.yml
+clear
+cat roles/hive_common/tasks/main.yml
+cat roles/hive_common/tasks/install_java_openjdk_13.yml
+claer
+clear
+vi site.hive.yml
+vi roles/hive_security/tasks/main.yml
+vi roles/hive_common/tasks/install_java_openjdk_13.yml
+vi roles/hive_security/tasks/main.yml
+cat roles/hive_security/tasks/main.yml
+cat roles/hive_common/tasks/main.yml
+clear
+cat roles/hive_security/templates/hive-security.service.j2
+clear
+sudo su -
+ssh incumbossrhel4
+claer
+ssh inchivetest01
+ta
+ta
+ta
+ta
+ta
+ssh inchivetest01
+ssh inchivedev02
+ssh inchivetest01
+ssh inchivedev02
+cd
+sudo su -
+clear
+ta
+ta
+tx
+ta
+ta
+ta
+ta
+ta
+ta
+clear
+ta
+ta
+ta
+ssh inchivedev02
+ssh inchivedev02
+ssh inchivetest01
+ta
+ta
+ta
+tx
+ta
+ta
+ssh inchivedev02
+ta
+ssh inchivedev02
+ssh inchivedev02
+ssh inccentos7test01
+clear
+cd /etc/ansible/sysadmin
+ll
+vi roles/common/tasks/main.yml
+vi roles/common/tasks/main.yml
+vi inventories/inceptum/hosts
+cat roles/common/tasks/main.yml
+sudo su 0
+sudo su -
+ansible-playbook --inventory-file /etc/ansible/sysadmin/inventories/inceptum/hosts site.yml --become -k --tags initial-users,initial-visudo,system-update,install-epel-repository,install-vmtools,install-common-tools,setup-ntp,setup-snmp --limit inccentos7test01,inccentos8test01,incrhel7test01,incrhel8test01
+ssh inccentos7test01
+ssh inccentos8test01
+ssh incrhel7test01
+ssh incrhel8test01
+sudo ansible-playbook --inventory-file /etc/ansible/sysadmin/inventories/inceptum/hosts site.yml --become -k --tags initial-users,initial-visudo,system-update,install-epel-repository,install-vmtools,install-common-tools,setup-ntp,setup-snmp --limit inccentos7test01,inccentos8test01,incrhel7test01,incrhel8test01
+ssh root@incrhel7test01
+ssh root@incrhel8test01
+sudo ansible-playbook --inventory-file /etc/ansible/sysadmin/inventories/inceptum/hosts site.yml --become -k --tags initial-users,initial-visudo,system-update,install-epel-repository,install-vmtools,install-common-tools,setup-ntp,setup-snmp --limit inccentos7test01,inccentos8test01,incrhel7test01,incrhel8test01
+sudo ansible-playbook --inventory-file /etc/ansible/sysadmin/inventories/inceptum/hosts site.yml --become -k --tags initial-users,initial-visudo,system-update,install-epel-repository,install-vmtools,install-common-tools,setup-ntp,setup-snmp --limit inccentos7test01,inccentos8test01,incrhel7test01,incrhel8test01
+sudo su -
+clear
+ta
+ta
+ta
+ta
+ta
+ta
+ta
+ta
+ta
+vi .tmux-keybindings.conf
+ta
+ta
+ssh root@inccentos8test01
+ssh root@inccentos8test01
+ssh inccentos8test01
+ssh incrhel8test01
+ssh incrhel8test01
+clear
+ssh root@inccentos8test01
+ssh root@inccentos8test01
+clear
+ssh root@inccentos7test01
+ssh root@inccentos8test01
+ssh root@incrhel7test01
+ssh root@incrhel7test01
+ssh root@incrhel8test01
+clear
+ssh inchivedev02
+ssh inccentos7test01
+ssh inccentos8test01
+ssh incrhel7test01
+ssh incrhel8test01
+clear
+ssh inchivedev02
+ssh inchivedev02
+ssh inchivetest01
+ssh inchivetest01
+ta
+ta
+tx
+ta
+ta

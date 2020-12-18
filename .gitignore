@@ -3,6 +3,7 @@
 *.bash_logout
 *.bash_profile
 *.bashrc
+*.gitignore
 *.lesshst
 *.local
 *.ssh
@@ -12,7 +13,8 @@
 *.viminfo
 *.vscode-server
 *.zcompdump
-history
+*.rpm
 mc
 tmp
 tmux
+history

@@ -29,3 +29,7 @@ let python_highlight_all = 1
 
 " cursor shape insert/normal mode
 autocmd InsertEnter,InsertLeave * set cul!
+
+set clipboard=unnamedplus
+
+set encoding=utf-8
